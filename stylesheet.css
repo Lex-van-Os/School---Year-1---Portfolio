@@ -1,0 +1,139 @@
+/* stylesheet.css */
+/* Lex van os */
+/* voor stylen = containers gebruiken en dan display flex om het naast elkaar te krijgen */
+
+h1      {
+        border: 5px solid black;
+        padding: 15px;
+        text-align: center;
+
+}
+
+h2  {
+    text-align: center;
+}
+
+nav      {
+    background-color: dimgray;
+    list-style: none;
+    color: blue;
+    text-align: center;
+}
+
+.nav > li   {
+    display: inline-block;
+    padding: 25px;
+}
+
+.nav > li > a{
+    text-decoration: none;
+    color: cornsilk;
+}
+
+.nav > li > a:hover {
+    color: aquamarine;
+}
+
+body    {
+    background-image: url("achtergrond.jpg");
+    background-attachment: fixed;
+    color: rgb(0, 0, 51);
+    align-content: center;
+}
+
+main    {
+    text-align: justify;
+}
+
+main h3 {
+        padding-top: 2%;
+        padding-bottom: 2%;
+}
+
+main h2 {
+        padding-bottom: 4%;
+}
+
+aside   {
+    flex-grow: 2;
+}
+
+
+form    {
+    margin: 2%;
+
+}
+
+
+input   {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 1%;
+}
+
+footer {
+    border: 5px solid black;
+}
+
+article {
+    text-align: center;
+}
+
+.footerlijst    {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.flex-images{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex: 15%;
+
+}
+
+.opltekstcontainer {
+    display: flex;
+
+}
+
+.tekstbox1  {
+    flex:1;
+    border: 5px solid black;
+    padding: 2%;
+}
+
+.tekstbox2  {
+    flex:1;
+    border: 5px solid black;
+    padding: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.tekstbox3  {
+    flex:1;
+    border: 5px solid black;
+    padding: 2%;
+}
+
+table       {
+
+}
+
+th, td  {
+    text-align: left;
+}
+
+caption {
+    border: 4px solid darkslateblue;
+    background-color: mediumslateblue;
+}
+
+th {
+    background-color: midnightblue;
+    color: powderblue;
+}
